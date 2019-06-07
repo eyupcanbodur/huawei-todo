@@ -1,0 +1,8 @@
+.Todo {
+  display: block;
+  flex-direction: row;
+  min-height: inherit;
+  height: inherit;
+  background-color: #58b368;
+  padding: 10px;
+}

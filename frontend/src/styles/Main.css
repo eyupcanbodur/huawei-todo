@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+#fullheight,
+#root {
+  min-height: 100% !important;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+.App {
+  min-height: inherit;
+  height: inherit;
+  width: inherit;
+}
+
+.App .Main {
+  display: flex;
+  flex-direction: row;
+  min-height: inherit;
+  height: inherit;
+}
+
+.Main .static-column {
+  background-color: #58b368;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 2%;
+  padding-left: 2%;
+  width: 55%;
+}
+
+.Main .dynamic-column {
+  font-size: 1rem;
+  background-color: #553c8b;
+  line-height: 1.5;
+  font-size: 18px;
+  width: 45%;
+  padding: 0px 8rem 0px 8rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.dynamic-column .forms {
+  background-color: #ec610a;
+  text-align: left;
+  position: relative;
+  border: 0.2rem transparent;
+  border-radius: 8px 8px 8px 8px;
+  padding: 2.5rem;
+  margin: 1rem;
+  border-width: 0.2rem 0.2rem 0.2rem 0.2rem;
+  box-sizing: border-box;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dynamic-column .badge {
+  display: block !important;
+}
+
+.dynamic-column .header {
+  font-size: 32px;
+  background-color: #ffc300;
+  display: inline-block;
+  width: 60%;
+  padding: 6px 0px 6px 0px;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dynamic-column .message-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.message-wrapper .message {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+
+.message-wrapper .icon {
+  margin-top: 2px;
+  width: 22px;
+  height: 22px;
+  object-fit: initial;
+  margin-right: 0.5rem;
+}
+
+.App .Todo {
+  display: block;
+  min-height: inherit;
+  height: inherit;
+  width: inherit;
+  background-color: #58b368;
+}
+
+.Todo .container {
+  padding: 10px;
+  max-width: 90% !important;
+  display: flex;
+}
+
+.container .row {
+  /* background-color: #553c8b; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Todo .todo-card {
+  margin: 5px;
+  transition: 0.3s;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todo-card:hover {
+  opacity: 0.8;
+}
