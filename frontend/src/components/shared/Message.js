@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Main.css";
-import MessageIconExclamation from "../statics/exclamation-mark.png";
-import MessageIconSuccess from "../statics/checked-mark.png";
+import "../../styles/Main.css";
+import MessageIconExclamation from "../../statics/exclamation-mark.png";
+import MessageIconSuccess from "../../statics/checked-mark.png";
 
 const Message = props => {
   return (

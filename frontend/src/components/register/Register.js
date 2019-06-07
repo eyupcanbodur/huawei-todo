@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Button, Spinner } from "react-bootstrap";
-import Message from "../Message";
+import Message from "../shared/Message";
 import "../../styles/Main.css";
 import "bootstrap/dist/css/bootstrap.css";
 import REGISTER from "./Register.service";
